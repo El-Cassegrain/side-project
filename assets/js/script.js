@@ -17,13 +17,11 @@ document.addEventListener('DOMContentLoaded', function () {
   knowMoreBtn.addEventListener('click', () => {
     popUp.classList.add('active')
     brandLinks.style.display = 'flex'
-    titleSocial.style.display = 'flex'
   });
 
   closeBtn.addEventListener('click', () => {
     popUp.classList.remove('active')
     brandLinks.style.display = 'none'
-    titleSocial.style.display = 'none'
   });
   
   knowMoreBtn.addEventListener('mouseenter', () => {

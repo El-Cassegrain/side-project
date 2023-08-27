@@ -227,7 +227,7 @@ img#badge {
     justify-content: center;
 }
 
-.pop-up h3 {
+h3 {
     display: none;
 }
 
@@ -379,10 +379,13 @@ lottie-player {
         justify-content: center;
     }
     .pop-up h3 {
-        display: block;
+        display: inline-flex;
         position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         top: 33.33vh;
         text-transform: uppercase;
+        transition: all 0.015s 0.012s;
     }
     .pop-up a i:hover, .pop-up a i:focus, .pop-up a img:hover, .pop-up a img:focus {
         position: relative;
