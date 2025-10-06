@@ -240,6 +240,11 @@ h3 {
 
 .brand-links a {
     color: var(--text-color);
+    img {
+        width: 100%;
+        margin-top: 5px;
+        display: flex;
+    }
 }
 
 .brand-links a i {
