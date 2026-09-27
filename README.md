@@ -1,35 +1,37 @@
-# Side-Project « Créer de superbes sites web »
+# Side project : « Créer de superbes sites web »
 
-Site personnel / vitrine conçu pour présenter ton approche, ton univers, ton style.  
-👉 [Voir en ligne](https://el-cassegrain.github.io/side-project/)
+Une landing page à l'humour décalé, avec une micro-interaction derrière chaque bouton.
+
+![Capture du side project](./screenshot.JPG)
+
+**Démo : [el-cassegrain.github.io/side-project](https://el-cassegrain.github.io/side-project/)**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Lottie](https://img.shields.io/badge/Lottie-00DDB3?logo=lottiefiles&logoColor=white)
+
+## Contexte
+
+Projet personnel pour expérimenter les micro-interactions et l'humour dans une interface, sans framework.
+
+## Fonctionnalités
+
+- « En savoir plus » ouvre une pop-up avec mes liens et déclenche une pluie de smileys générés en JavaScript
+- Le second bouton lance une vidéo au survol ou au focus clavier
+- Animation de confettis avec Lottie
+- Interactions accessibles au clavier (focus) autant qu'à la souris
+
+## Installation
+
+C'est un site statique, sans étape de build.
+
+```bash
+git clone https://github.com/El-Cassegrain/side-project.git
+cd side-project
+pnpm dlx serve .
+```
 
 ---
 
-## Aperçu
-
-![Aperçu du site](https://el-cassegrain.github.io/side-project/screenshot.JPG)
-
-Ce site affiche un message d’introduction fort :  
-> **Créer de superbes sites web.**  
-Il illustre ton sens du design minimaliste et ta direction artistique centrée sur l’expérience utilisateur.
-
----
-
-## Objectif
-
-- Donner une première impression visuelle forte  
-- Montrer ta philosophie de design / ta démarche créative  
-- Servir de vitrine et de porte d’entrée vers tes projets  
-
----
-
-## Technologies utilisées
-
-- **HTML5** – structure sémantique  
-- **CSS3** – mise en page, typographie, responsive  
-- **GitHub Pages** – hébergement  
-
----
-
-## Structure du projet
-
+Réalisé par [Etienne Leriche](https://etienneleriche.com), designer UI/UX et développeur front-end.
